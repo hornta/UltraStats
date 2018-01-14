@@ -1,0 +1,15 @@
+name: UltraStats
+version: 1.0
+main: me.amgf.UltraStats.Main
+commands:
+  ustat:
+    description: Show statistics for one or multiple players
+    usage: |
+      /ustat - Show total amount of kills.
+      /ustat <entity> - Show amount of kills per entity.
+      /ustat all - Show everyones total amount of kills combined.
+      /ustat all <entity> - Show everyones amount of kills per entity.
+      /ustat <player> - Show any players total amount of kills.
+      /ustat <player> <entity> - Show any player amount of kills per entity.
+      /ustat top - Show the leaderboard of total amount of kills.
+      /ustat top <entity> - Show the leaderboard of amount of kills per entity.
